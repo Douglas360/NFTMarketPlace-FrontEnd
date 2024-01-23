@@ -145,10 +145,13 @@
 
 .bigNFTSlider_box_right_box {
     position: relative;
+    overflow: hidden;
 }
 
 .bigNFTSlider_box_right_box_img {
     border-radius: 2rem;
+    width: 100%;
+    height: auto;
 }
 
 .bigNFTSlider_box_right_box_like {

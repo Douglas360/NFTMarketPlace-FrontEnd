@@ -6,6 +6,7 @@
     transition: all .2s ease-in;
     cursor: pointer;
     position: relative;
+    overflow: hidden;
 }
 
 .FollowerTabCard_box:hover {
@@ -33,10 +34,13 @@
 
 .FollowerTabCard_box_img {
     grid-column: 1 /-1;
+    
 }
 
 .FollowerTabCard_box_img_img {
     border-radius: 2rem;
+    
+    
 }
 
 .FollowerTabCard_box_profile {
