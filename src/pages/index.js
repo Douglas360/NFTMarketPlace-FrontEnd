@@ -3,7 +3,7 @@ import React from 'react'
 
 //INTERNAL IMPORT
 import Style from '../styles/index.module.css'
-import { HeroSection, Service, BigNFTSilder, Subscribe, Title, Category, Filter, NFTCard, Collection, AudioLive } from '../components/componentsindex'
+import { HeroSection, Service, BigNFTSilder, Subscribe, Title, Category, Filter, NFTCard, Collection, AudioLive, FollowerTab, Slider, Brand } from '../components/componentsindex'
 
 const Home = () => {
   return (
@@ -16,6 +16,10 @@ const Home = () => {
         paragraph="Discover the most outstanding NFTs in all topics of life."
       />
       <AudioLive />
+
+      <FollowerTab />
+
+      <Slider />
 
       <Collection />
       <Title
@@ -30,6 +34,7 @@ const Home = () => {
       />
       <Category />
       <Subscribe />
+      <Brand />
     </div>
   )
 }
