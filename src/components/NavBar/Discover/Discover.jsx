@@ -14,23 +14,23 @@ const Discover = () => {
     },
     {
       name: "Search",
-      link: "search"
+      link: "searchPage"
     },
     {
       name: "Author Profile",
-      link: "author-profile"
+      link: "author"
     },
     {
       name: "NFT Details",
-      link: "nft-details"
+      link: "NFT-details"
     },
     {
       name: "Account Setting",
-      link: "account-setting"
+      link: "account"
     },
     {
       name: "Connect Wallet",
-      link: "connect-wallet"
+      link: "connectWallet"
     },
     {
       name: "Blog",
